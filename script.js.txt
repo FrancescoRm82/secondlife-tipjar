@@ -1,0 +1,19 @@
+const params = new URLSearchParams(window.location.search);
+
+const role =
+params.get("role") || "AVAILABLE";
+
+const name =
+params.get("name") || "CLICK TO LOGIN";
+
+const tips =
+params.get("tips") || "0";
+
+document.getElementById("role").textContent =
+role;
+
+document.getElementById("name").textContent =
+name;
+
+document.getElementById("tips").textContent =
+"L$ " + tips;
