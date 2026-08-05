@@ -1,4 +1,3 @@
-```javascript
 // =====================================================
 // TIPJAR PRO v2.0
 // GITHUB DISPLAY SCRIPT
@@ -132,4 +131,3 @@ console.log("Name:", name);
 console.log("Tips:", tips);
 console.log("Status:", status);
 console.log("Photo:", photo);
-```
